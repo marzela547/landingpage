@@ -1,0 +1,148 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+header div.hero {
+  background-image: url("../img/fondo-s.jpg");
+  background-position: top center ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 80vh;
+}
+
+header div.hero div{
+   min-height: 50vh;
+}
+
+.title{
+  font-family: 'Scheherazade', serif;
+  font-size:2rem;
+}
+
+.title-t{
+  font-family: 'Castoro', serif;
+  font-size:2rem;
+  text-shadow: -2px -2px 1px #fff;
+}
+
+.logo{
+  height: 3em;
+  width:2em;
+}
+/*
+.card img{
+  width:100%;
+}*/
+
+.parrafo{
+  text-align: justify;
+}
+
+.barra{
+  width: 100%;
+  height: 2%;
+}
+
+#portada {
+  height: 593px;
+  width: 299px;
+}
+
+.formu{
+  background-color: rgba(255, 255, 255, 0.349);
+  padding: 1em;
+}
+
+#btnForm1, #btnForm2{
+  border: none;
+  background-color: #f35900;
+}
+
+.foto{
+  width: 5em;
+  height: 7em;
+}
+
+.iconos{
+  width: 100%;
+}
+
+.log{
+  width: 100% !important;
+}
+
+
+form {
+  font-size:1rem !important;
+}
+@media (max-width: 768px) {
+      header div.hero {
+            background-image: url("../img/fondo-m.jpg");
+            min-height: 80vh;
+        }
+        /*form{
+          font-size:2rem !important;
+        }*/
+        .title{
+          font-size:2rem;
+          padding:0.7em;
+        }
+
+        .title-t, .title{
+          max-width: 700px;
+          height: 10%;
+          text-align: justify;
+        }
+
+        .title-t{
+          font-weight: bold;
+        }
+
+      .foto{
+          width: 10em;
+          height: 16em;
+        }
+
+       div .formu{
+          width: 700px;
+          margin: 0px;
+          padding: 0px;
+        }
+      }
+
+@media (min-width: 992px) {
+        header div.hero {
+            background-image: url("../img/fondo-l.jpg");
+        }
+
+        .title-t, .title{
+          max-width: 800px;
+          height: 10%;
+          margin: auto 1em ;
+        }
+
+        .title-t{
+          font-weight: bold;
+        }
+
+        .foto{
+          width: 15em;
+          height: 22em;
+        }
+
+        #cajita{
+          margin-right: 0px;
+          max-width: 600px;
+        }
+
+        .iconos{
+          width: fit-content;
+        }
+
+        .tama{
+          width: 65%;
+          border-right: 1px solid rgb(226, 226, 226);
+        }
+      }

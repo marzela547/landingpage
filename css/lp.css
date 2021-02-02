@@ -19,6 +19,7 @@ header div.hero div{
 .title{
   font-family: 'Scheherazade', serif;
   font-size:2rem;
+  text-shadow: -2px -2px 1px #fff;
 }
 
 .title-t{
@@ -31,10 +32,6 @@ header div.hero div{
   height: 3em;
   width:2em;
 }
-/*
-.card img{
-  width:100%;
-}*/
 
 .parrafo{
   text-align: justify;
@@ -82,9 +79,7 @@ form {
             background-image: url("../img/fondo-m.jpg");
             min-height: 80vh;
         }
-        /*form{
-          font-size:2rem !important;
-        }*/
+
         .title{
           font-size:2rem;
           padding:0.7em;

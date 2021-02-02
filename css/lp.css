@@ -1,7 +1,7 @@
 body{
   margin: 0px;
   padding: 0px;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 
 header div.hero {
@@ -52,6 +52,15 @@ header div.hero div{
   padding: 1em;
 }
 
+.form1{
+  width: fit-content;
+}
+
+#cajita{
+  max-width: 600px;
+  box-sizing: border-box;
+}
+
 #btnForm1, #btnForm2{
   border: none;
   background-color: #f35900;
@@ -62,6 +71,11 @@ header div.hero div{
   height: 7em;
 }
 
+.foor{
+  margin: 0px;
+  font-size: xx-large;
+}
+
 .iconos{
   width: 100%;
 }
@@ -70,6 +84,13 @@ header div.hero div{
   width: 100% !important;
 }
 
+.tama, .deta{
+  width: 22em;
+}
+
+.caja{
+  width: 800px;
+}
 
 form {
   font-size:1rem !important;
@@ -101,9 +122,10 @@ form {
         }
 
        div .formu{
-          width: 700px;
+          width: 800px;
           margin: 0px;
           padding: 0px;
+          background-color: aqua;
         }
       }
 
@@ -113,7 +135,7 @@ form {
         }
 
         .title-t, .title{
-          max-width: 800px;
+          max-width: 600px;
           height: 10%;
           margin: auto 1em ;
         }
@@ -139,5 +161,17 @@ form {
         .tama{
           width: 65%;
           border-right: 1px solid rgb(226, 226, 226);
+        }
+
+        .foor{
+          margin: 0px;
+          font-size: medium;
+        }
+
+        .formu{
+          width: 400px;
+        }
+        .caja{
+          width: 400px;
         }
       }
